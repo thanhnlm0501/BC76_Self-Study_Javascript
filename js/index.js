@@ -77,3 +77,20 @@ var luong = 0;
 luong = soNgayLam * luong1Ngay;
 
 console.log('Tổng lương:', luong);
+
+// Viết chương trình cho phép người dùng nhập vào chiều dài và chiều rộng của màn hình. Tính chu vi và diện tích màn hình !
+
+// Input:
+var chieuDai = 5;
+var chieuRong = 3;
+
+// Output
+var chuVi = 0;
+var dienTich = 0;
+
+//Progress
+chuVi = (chieuDai + chieuRong) * 2;
+dienTich = chieuDai * chieuRong;
+
+console.log('Chu vi:', chuVi);
+console.log('Diện tích:', dienTich);
