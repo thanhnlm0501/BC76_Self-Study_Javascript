@@ -54,3 +54,10 @@ i++; // i = 2
 console.log('i =', i);
 i += 1; // i = 3
 console.log('i =', i);
+
+// ----- Hệ số -----
+const HE_SO_LUONG = 5;
+// HE_SO_LUONG = 10;
+
+// const khai báo biến hằng số chỉ được gán 1 lần duy nhất , không gán 2 lần (báo lỗi)
+// thường được sử dụng do backend cung cấp
