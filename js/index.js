@@ -61,3 +61,19 @@ const HE_SO_LUONG = 5;
 
 // const khai báo biến hằng số chỉ được gán 1 lần duy nhất , không gán 2 lần (báo lỗi)
 // thường được sử dụng do backend cung cấp
+
+// ----- Mô hình 3 khối -----
+// Ví dụ: về ứng dụng tính lương nhân viên làm trên 1 tháng (28 ngày). Dựa trên lương cơ bản là 20$ / 1 ngày.
+// Chương trình tính lương
+
+// Input: đầu vào
+var luong1Ngay = 20;
+var soNgayLam = 28;
+
+//Output: Tính lương trên số ngày làm việc
+var luong = 0;
+
+// Bước xử lý
+luong = soNgayLam * luong1Ngay;
+
+console.log('Tổng lương:', luong);
